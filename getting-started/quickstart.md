@@ -132,7 +132,7 @@ You must own or control the ArNS name to use this option.
 
 <summary>How much does deployment cost?</summary>
 
-Deployment costs are based on your built application size. You'll see the exact AR token amount before confirming deployment. Costs typically range from 0.1-1 AR for most applications.
+Deployment costs are free for the duration of the PermaHacks and the Arweave FullStack Hackathon!&#x20;
 
 </details>
 
@@ -163,9 +163,5 @@ Most deployments complete in 2-5 minutes. Factors affecting deployment time:
 </details>
 
 ## Next Steps
-
-Now that your first application is deployed, explore these features:
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Auto Deployments</strong></td><td>Set up automatic deployments from your repository</td><td></td></tr><tr><td><strong>Custom Domains</strong></td><td>Configure advanced ArNS settings</td><td></td></tr><tr><td><strong>Build Options</strong></td><td>Customize your build process</td><td></td></tr></tbody></table>
 
 Need help? Click the chat icon in the bottom right or join our [Discord community](https://discord.gg/gxGTmUyBWp).
