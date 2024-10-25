@@ -1,7 +1,21 @@
 ---
 icon: bullseye-arrow
-cover: /assets/quickstart-cover.png
+cover: ../.gitbook/assets/savebanner.jpeg
 coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Quickstart
@@ -11,9 +25,10 @@ Deploy your first application to the permaweb in under 5 minutes using ARlink. T
 ## Prerequisites
 
 Before you begin, make sure you have:
-- An Arweave wallet (ArConnect recommended)
-- A GitHub account or Protocol Land account
-- Your web application code ready to deploy
+
+* An Arweave wallet (ArConnect recommended)
+* A GitHub account or Protocol Land account
+* Your web application code ready to deploy
 
 ## Step 1: Connect Your Wallet
 
@@ -36,27 +51,29 @@ Choose your preferred deployment method:
 2. Select "Import from GitHub"
 3. Authorize ARlink in GitHub if prompted
 4. Choose your repository
-5. Configure your build settings:
-   ```yaml
-   Project Name: my-first-app
-   Branch: main
-   Install Command: npm ci  # or yarn install
-   Build Command: npm run build  # or yarn build
-   Output Directory: dist  # or build
-   ```
+5.  Configure your build settings:
+
+    ```yaml
+    Project Name: my-first-app
+    Branch: main
+    Install Command: npm ci  # or yarn install
+    Build Command: npm run build  # or yarn build
+    Output Directory: dist  # or build
+    ```
 {% endtab %}
 
 {% tab title="Protocol Land Deploy" %}
 1. Click "New Deployment" in the dashboard
 2. Select "Import from Protocol Land"
 3. Choose your repository from the list
-4. Configure your build settings:
-   ```yaml
-   Project Name: my-first-app
-   Install Command: npm ci  # or yarn install
-   Build Command: npm run build  # or yarn build
-   Output Directory: dist  # or build
-   ```
+4.  Configure your build settings:
+
+    ```yaml
+    Project Name: my-first-app
+    Install Command: npm ci  # or yarn install
+    Build Command: npm run build  # or yarn build
+    Output Directory: dist  # or build
+    ```
 {% endtab %}
 {% endtabs %}
 
@@ -92,9 +109,9 @@ You must own or control the ArNS name to use this option.
 2. Click "Deploy" to start the build process
 3. Monitor the build progress in real-time
 4. Once complete, you'll receive:
-   - Arweave Transaction ID
-   - Deployment URL
-   - ArNS Domain (if configured)
+   * Arweave Transaction ID
+   * Deployment URL
+   * ArNS Domain (if configured)
 
 <details>
 
@@ -124,10 +141,11 @@ Deployment costs are based on your built application size. You'll see the exact 
 <summary>How long does deployment take?</summary>
 
 Most deployments complete in 2-5 minutes. Factors affecting deployment time:
-- Repository size
-- Build complexity
-- Network conditions
-- Arweave network speed
+
+* Repository size
+* Build complexity
+* Network conditions
+* Arweave network speed
 
 </details>
 
@@ -135,12 +153,12 @@ Most deployments complete in 2-5 minutes. Factors affecting deployment time:
 
 <summary>What are the size limits?</summary>
 
-- Maximum build output: 10MB
-- Build timeout: 10 minutes
-- For larger applications, consider:
-  - Optimizing assets
-  - Using lazy loading
-  - Implementing code splitting
+* Maximum build output: 10MB
+* Build timeout: 10 minutes
+* For larger applications, consider:
+  * Optimizing assets
+  * Using lazy loading
+  * Implementing code splitting
 
 </details>
 
@@ -148,10 +166,6 @@ Most deployments complete in 2-5 minutes. Factors affecting deployment time:
 
 Now that your first application is deployed, explore these features:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><strong>Auto Deployments</strong></td><td>Set up automatic deployments from your repository</td><td>basics/auto-deploy.md</td></tr>
-<tr><td><strong>Custom Domains</strong></td><td>Configure advanced ArNS settings</td><td>basics/arns-configuration.md</td></tr>
-<tr><td><strong>Build Options</strong></td><td>Customize your build process</td><td>basics/build-configuration.md</td></tr>
-</tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Auto Deployments</strong></td><td>Set up automatic deployments from your repository</td><td></td></tr><tr><td><strong>Custom Domains</strong></td><td>Configure advanced ArNS settings</td><td></td></tr><tr><td><strong>Build Options</strong></td><td>Customize your build process</td><td></td></tr></tbody></table>
 
 Need help? Click the chat icon in the bottom right or join our [Discord community](https://discord.gg/gxGTmUyBWp).

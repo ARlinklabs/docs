@@ -1,3 +1,7 @@
+---
+icon: square-check
+---
+
 # Making Your Website Arweave Compatible
 
 Learn how to prepare your web application for deployment on the Arweave permaweb. This guide covers essential modifications needed for different frameworks and explains important concepts for permaweb compatibility.
