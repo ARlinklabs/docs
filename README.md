@@ -36,7 +36,7 @@ ARlink combines the power of decentralized storage with familiar deployment work
 
 - **🚀 Simple Deployments**: Push your code and let ARlink handle the rest
 - **🔗 ArNS Integration**: Custom domains with Arweave Name Service
-- **🔄 Auto Updates**: Automatic deployments from GitHub and Protocol Land
+- **🔄 Auto Updates**: Automatic deployments from GitHub and Protocol Land [Protocol Land is under beta, it is likely to break, use under your own risk]
 - **📊 Build Monitoring**: Real-time build logs and deployment tracking
 - **🛡️ Permaweb Storage**: Your applications, permanently preserved on Arweave
 
