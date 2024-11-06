@@ -32,7 +32,7 @@ Before you begin, make sure you have:
 
 ## Step 1: Connect Your Wallet
 
-1. Visit [ARlink Dashboard](https://arlink.dev)
+1. Visit [ARlink Dashboard](https://arlink.ar-io.dev/)
 2. Click "Connect Wallet" in the top right corner
 3. Select your wallet provider (ArConnect recommended)
 4. Authorize the connection when prompted
