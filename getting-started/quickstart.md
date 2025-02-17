@@ -26,19 +26,19 @@ Deploy your first application to the permaweb in under 5 minutes using Arlink. T
 
 Before you begin, make sure you have:
 
-* An Arweave wallet (ArConnect recommended)
+* An Arweave wallet (Wander recommended)
 * A GitHub account or Protocol Land account
 * Your web application code ready to deploy
 
 ## Step 1: Connect Your Wallet
 
-1. Visit [Arlink Dashboard](https://Arlink.arweave.net/)
+1. Visit [Arlink Dashboard](https://arlink.arweave.net/)
 2. Click "Connect Wallet" in the top right corner
-3. Select your wallet provider (ArConnect recommended)
+3. Select your wallet provider (Wander recommended)
 4. Authorize the connection when prompted
 
 {% hint style="info" %}
-If you don't have an Arweave wallet yet, we recommend installing [ArConnect](https://arconnect.io) first.
+If you don't have an Arweave wallet yet, we recommend installing [Wander](https://www.wander.app/) first.
 {% endhint %}
 
 ## Step 2: Create Your First Deployment
@@ -51,15 +51,17 @@ Choose your preferred deployment method:
 2. Select "Import from GitHub"
 3. Authorize Arlink in GitHub if prompted
 4. Choose your repository
-5.  Configure your build settings:
+5.  Verify your build settings (pre-filled based on repository analysis):
 
     ```yaml
     Project Name: my-first-app
     Branch: main
-    Install Command: npm ci  # or yarn install
-    Build Command: npm run build  # or yarn build
-    Output Directory: dist  # or build
+    Install Command: pnpm install  # auto-detected from package manager
+    Build Command: npm run build   # auto-detected from package.json
+    Output Directory: dist         # auto-detected from config
     ```
+
+    Review these settings and adjust if needed.
 {% endtab %}
 
 {% tab title="Protocol Land Deploy" %}
@@ -72,7 +74,7 @@ Choose your preferred deployment method:
     Project Name: my-first-app
     Install Command: npm ci  # or yarn install
     Build Command: npm run build  # or yarn build
-    Output Directory: dist  # or build
+    Output Directory: dist  # or build this is where your static fiels are exported 
     ```
 {% endtab %}
 {% endtabs %}
@@ -82,8 +84,8 @@ Choose your preferred deployment method:
 Choose your preferred domain option:
 
 {% tabs %}
-{% tab title="Custom ArNS Name" %}
-1. Enable "Custom ArNS Name" in deployment settings
+{% tab title="Arlink undername " %}
+1. Enable "Arlink undername" in deployment settings
 2. Enter your preferred name (e.g., `myapp`)
 3. Your application will be available at: `myapp_arlink.arweave.net`
 
@@ -105,13 +107,10 @@ You must own or control the ArNS name to use this option.
 
 ## Step 4: Deploy
 
-1. Review your deployment settings
-2. Click "Deploy" to start the build process
-3. Monitor the build progress in real-time
-4. Once complete, you'll receive:
-   * Arweave Transaction ID
-   * Deployment URL
-   * ArNS Domain (if configured)
+1. Review your deployment settings.
+2. Click **Deploy** to initiate the build process.
+3. Monitor the build progress in real-time.
+4. Once complete, you'll see a success card—use it to visit your deployment and access the deployment management panel.
 
 <details>
 
@@ -132,7 +131,7 @@ You must own or control the ArNS name to use this option.
 
 <summary>How much does deployment cost?</summary>
 
-Deployment costs are free for the duration of the PermaHacks and the Arweave FullStack Hackathon!&#x20;
+Deployment costs are currently subsidized during our promotional beta. Please note that this subsidy comes with limitations, including restrictions on deployment size and CI/CD usage.
 
 </details>
 
