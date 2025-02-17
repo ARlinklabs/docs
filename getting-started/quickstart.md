@@ -20,7 +20,7 @@ layout:
 
 # Quickstart
 
-Deploy your first application to the permaweb in under 5 minutes using ARlink. This guide will walk you through connecting your wallet, setting up your first deployment, and publishing your application.
+Deploy your first application to the permaweb in under 5 minutes using Arlink. This guide will walk you through connecting your wallet, setting up your first deployment, and publishing your application.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Before you begin, make sure you have:
 
 ## Step 1: Connect Your Wallet
 
-1. Visit [ARlink Dashboard](https://arlink.ar-io.dev/)
+1. Visit [Arlink Dashboard](https://Arlink.arweave.net/)
 2. Click "Connect Wallet" in the top right corner
 3. Select your wallet provider (ArConnect recommended)
 4. Authorize the connection when prompted
@@ -49,7 +49,7 @@ Choose your preferred deployment method:
 {% tab title="GitHub Deploy" %}
 1. Click "New Deployment" in the dashboard
 2. Select "Import from GitHub"
-3. Authorize ARlink in GitHub if prompted
+3. Authorize Arlink in GitHub if prompted
 4. Choose your repository
 5.  Configure your build settings:
 
@@ -85,10 +85,10 @@ Choose your preferred domain option:
 {% tab title="Custom ArNS Name" %}
 1. Enable "Custom ArNS Name" in deployment settings
 2. Enter your preferred name (e.g., `myapp`)
-3. Your application will be available at: `myapp_arlink.ar-io.dev`
+3. Your application will be available at: `myapp_arlink.arweave.net`
 
 {% hint style="info" %}
-Custom names must be unique across ARlink. If your chosen name is taken, try adding a unique identifier.
+Custom names must be unique across Arlink. If your chosen name is taken, try adding a unique identifier.
 {% endhint %}
 {% endtab %}
 

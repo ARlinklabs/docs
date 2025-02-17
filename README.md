@@ -20,17 +20,17 @@ layout:
 
 # Welcome
 
-Welcome to ARlink - your gateway to seamless permaweb deployments! Deploy, manage, and scale your web applications on Arweave with just a few clicks.
+Welcome to Arlink - your gateway to seamless permaweb deployments! Deploy, manage, and scale your web applications on Arweave with just a few clicks.
 
-ARlink combines the power of decentralized storage with familiar deployment workflows, making it easy to bring your applications to the permaweb.
+Arlink combines the power of decentralized storage with familiar deployment workflows, making it easy to bring your applications to the permaweb.
 
 ### Get Started Quickly
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quick Deploy</strong></td><td>Deploy your first application in minutes</td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr></tbody></table>
 
-### Why Choose ARlink?
+### Why Choose Arlink?
 
-* **🚀 Simple Deployments**: Push your code and let ARlink handle the rest
+* **🚀 Simple Deployments**: Push your code and let Arlink handle the rest
 * **🔗 ArNS Integration**: Custom domains with Arweave Name Service
 * **🔄 Auto Updates**: Automatic deployments from GitHub and Protocol Land \[Protocol Land is under beta, it is likely to break, use under your own risk]
 * **📊 Build Monitoring**: Real-time build logs and deployment tracking
